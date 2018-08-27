@@ -8,6 +8,11 @@ class FilmBox extends React.Component {
         {
           film: 'Isle of Dogs',
           time: '20:00'
+        },
+
+        {
+          film: 'The Grand Budapest Hotel',
+          time: '18:00'
         }
       ]
     }
