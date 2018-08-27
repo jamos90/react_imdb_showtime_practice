@@ -8,7 +8,7 @@ class FilmList extends React.Component {
     });
     return (
       <ul>
-      Film Details {filmComponents}
+     {filmComponents}
       </ul>
     );
   }

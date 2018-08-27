@@ -22,7 +22,8 @@ class FilmBox extends React.Component {
         {
           name: 'The Meg',
           title:'https://www.imdb.com/title/tt4779682?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=d120b30e-f0de-4d19-a67b-80c0ca1f8c6e&pf_rd_r=A61WHBN8CCMNWES6PS8G&pf_rd_s=right-6&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_cht_t2',
-          time: 'https://www.imdb.com/showtimes/title/tt4779682?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=d120b30e-f0de-4d19-a67b-80c0ca1f8c6e&pf_rd_r=A61WHBN8CCMNWES6PS8G&pf_rd_s=right-6&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_cht_gs'
+          time: 'https://www.imdb.com/showtimes/title/tt4779682?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=d120b30e-f0de-4d19-a67b-80c0ca1f8c6e&pf_rd_r=A61WHBN8CCMNWES6PS8G&pf_rd_s=right-6&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_cht_gs',
+          id:789
         }
       ]
     }
@@ -31,10 +32,10 @@ class FilmBox extends React.Component {
     return (
 
       <div className = "film-box">
-        UK Opening this week:
+        <p>UK Opening this week: </p>
         <FilmList films={this.state.films}/>
 
-        <a href = 'https://www.imdb.com/showtimes/'> see more show times</a>
+        <a className="more-times" href = 'https://www.imdb.com/showtimes/'> see more show times</a>
 
        <button> Get more show times </button>
      </div>

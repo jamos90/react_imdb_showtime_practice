@@ -29,5 +29,39 @@
 
 .show-times {
   position: relative;
-  left: 10em;
+  left: 20em;
+  display: inline;
+  padding-bottom: 1em;
+}
+
+.film-title{
+  display: inline;
+}
+
+li{
+  width:auto;
+
+}
+
+.more-times{
+  display: block;
+  padding-bottom: 1em;
+}
+
+.film-box{
+  border: 1px solid grey;
+  background-color: hsl(0, 0%, 94%);
+}
+p{
+  color: 	hsl(0, 0%, 20%);
+  font-size: 1.5em;
+}
+
+a {
+  color: 	hsl(210, 63%, 43%);
+  text-decoration: none;
+}
+
+button{
+  padding-bottom: 0.5em;
 }
